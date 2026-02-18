@@ -5,8 +5,8 @@ from datetime import datetime, timedelta #El Módulo ~datetime~ nos ayuda trabaj
 import numpy as np
 
 # ===== CONFIGURACIÓN =====
-RUTA_DIRECTORIO = Path("C:/Users/jorda/Desktop/ETAPA PRODUCTIVA/Pecerocuatros 25")#insertar ruta de base de datos
-RUTA_SALIDA = Path("C:/Users/jorda/Desktop/resultado_verificacion_2.xlsx") #insertar ruta de directorio destino
+RUTA_DIRECTORIO = Path("")#insertar ruta de base de datos
+RUTA_SALIDA = Path("") #insertar ruta de directorio destino
 
 # ===== FUNCIÓN PARA PROCESAR ARCHIVOS =====
 def procesar_archivo(archivo):
@@ -200,4 +200,5 @@ def main():
 # ===== EJECUCIÓN =====
 print("Iniciando proceso de verificación...")
 main()
+
 print("Proceso finalizado")
